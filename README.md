@@ -9,11 +9,11 @@ Con estos valores de probabilidad, se realizan dos gráficas para identificar la
 
 Entonces, para los valores de X se obtiene la siguiente función de densidad marginal:
 
-fX(x) = (1/sqrt(2*pi*(3.299)^2))*exp(-(x-9.905)^2/(2*(3.299)^2))
+fX(x) = (1/sqrt(2pi(3.299)^2))exp(-(x-9.905)^2/(2(3.299)^2))
 
 Para los valores de Y se obtiene la función de densidad marginal:
 
-fY(y) = (1/sqrt(2*pi*(6.029)^2))*exp(-(x-15.079)^2/(2*(6.029)^2))
+fY(y) = (1/sqrt(2pi(6.029)^2))exp(-(x-15.079)^2/(2(6.029)^2))
 
 ## Parte 2
 
@@ -21,7 +21,7 @@ En esta parte, se pide encontrar la función de densidad conjunta de forma anal�
 
 Para lograr esto simplemente se multiplican las funciones de densidad marginales obtenidas en la parte 1, para conseguir la función de densidad conjunta, la cual da:
 
-fXY(xy) = 0.008003*exp(-(1/2)*(((x-9.905)^2/((3.299)^2))-((x-15.079)^2/((6.029)^2)))
+fXY(xy) = 0.008003exp(-(1/2)(((x-9.905)^2/((3.299)^2))-((x-15.079)^2/((6.029)^2)))
 
 ## Parte 3
 Se pide encontrar los valores de correlación, covarianza y coeficiente de relación (Pearson) para los datos. Para esto se leen los datos de xyp.csv.
