@@ -30,9 +30,9 @@ La correlación es una medida del grado en que dos o más cantidades están line
 
 Como el valor de la correlación es casi identico al de la multiplicación de los valores esperados, se podría decir que RXY = E[X]E[Y] y esto daría que no existe correlación entre las variables aleatorias X y Y. 
 
-Para realizar el cálculo de la covarianza, se hace el mismo procemiento que para la correlación, solo que esta vez el valor de X se le resta E[X] y a los valores de Y se les resta E[Y] ((x-E[X])(y- E[Y])P). Al realizar esto, se obtiene un valor de covarianza de 0.067. Este valor da tan pequeño por que no existe correlación entre las dos variables, ya que otro método para calcular la covarianza es CXY = RXY - E[X]E[Y].
+La covarianza refleja en que cantidad dos variables aleatoria varían en forma conjunta. Para realizar el cálculo, se hace el mismo procemiento que para la correlación, solo que esta vez el valor de X se le resta E[X] y a los valores de Y se les resta E[Y] ((x-E[X])(y- E[Y])P). Al realizar esto, se obtiene un valor de covarianza de 0.067. Este valor da tan pequeño por que no existe correlación entre las dos variables, ya que otro método para calcular la covarianza es CXY = RXY - E[X]E[Y]. Por lo tanto, las variables aleatorias no varían en forma conjunta.
 
-Por último se hizo el cálculo del coeficiente de relación, el cual se calcula simplemete por p=CXY/(sigmaXsigmaY), donde los valores de sigma son los dados en la parte 1 como desviación estándar. Para este coeficiente se obtiene un coeficiente de variación de 0.00335, el cual da pequeño nuevamente por la no correlación entre las variables.
+Por último se hizo el cálculo del coeficiente de relación, el caul es una medida para cuantificar el grado de variación conjunta entre dos variables aleatorias. Este calcula simplemete por p=CXY/(sigmaXsigmaY), donde los valores de sigma son los dados en la parte 1 como desviación estándar. Para este coeficiente se obtiene un coeficiente de variación de 0.00335, el cual da pequeño nuevamente por la no correlación entre las variables.
 
 ## Parte 4
 Se grafican las curva para las funciones de densidad marginales de la parte 1 y para la función de densidad conjunta de la parte 2.
